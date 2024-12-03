@@ -1,9 +1,6 @@
-# Test Docker File Locally (Step C2)
+### Steps to Deploy the eCommerce Site Container to Microsoft Azure and Make it Accessible 
 
-![Local Run](./images/LocalRun.png)
-
-
-# Steps to Deploy a Container to Microsoft Azure and Make it Accessible (Step C3)
+This process involves deploying a containerized version of the eCommerce site, complete with REST API integrations, to Microsoft Azure. The steps include building and pushing a Docker image to a container registry, configuring Azure to host the container, and ensuring the application is accessible via the internet. By leveraging Azure's container services, you can streamline deployment and scaling while ensuring your APIs are functional and secure.
 
 **1\. Create a Container Registry**
 
