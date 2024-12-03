@@ -6,7 +6,7 @@ This process involves deploying a containerized version of the eCommerce site, c
 
 After creating an Microsoft Cloud Azure Account, create a container registry. A Container Registry is a grouping of one or more containers in Azure.
 
-![Deployment Diagram](./images/Picture3.png)
+![Deployment Diagram](ecommercesiterepo/images/Picture3.png)
 
 
 **2\. Install Azure CLI (az) on Your PC & Tag Your Docker Image**
@@ -47,10 +47,10 @@ A Network Security Group defines the inbound and outbound network traffic rules 
 - Create an NSG and configure inbound traffic on port 8080 to allow access to the container instance.
 - Apply the NSG to the container instance or resource group to ensure that it can accept incoming requests on port 8080.
 
-![View Docker](./images/Picture2.png)
+![View Docker](ecommercesiterepo/images/Picture2.png)
 
 **6\. Test the Setup**
 
 Verify that your container is running by accessing it via the public IP and port (in this case, <http://135.224.238.180:8080>). This ensures that the application deployed inside the container is accessible externally to anyone on the internet.
 
-![View Webpage](./images/Picture1.png)
+![View Webpage](ecommercesiterepo//images/Picture1.png)
